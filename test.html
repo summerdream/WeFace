@@ -38,9 +38,9 @@
     wx.config({
         debug: false,
         appId: '{$signPackage["wxd77ed25321d29bad"]}',
-        //timestamp: {$signPackage["timestamp"]},
-        //nonceStr: '{$signPackage["nonceStr"]}',
-        //signature: '{$signPackage["signature"]}',
+        timestamp: {$signPackage["timestamp"]},
+        nonceStr: '{$signPackage["nonceStr"]}',
+        signature: '{$signPackage["signature"]}',
         jsApiList: [
             'checkJsApi',
             'chooseImage',
